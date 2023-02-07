@@ -27,8 +27,11 @@
     list-style: none;
   }
   
-  .menu li a{
+  .menu li{
     margin: 0 0.45cm;
+  }
+
+  .menu li a{
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
