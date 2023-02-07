@@ -1,22 +1,8 @@
-* {
+  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    background-position: center top;
-    background: linear-gradient(rgba(0,0,0,0.4),transparent);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 145vh;
-    position: relative;
   }
     
   header{
@@ -28,7 +14,7 @@
     left: 0;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 1.5cm;
     box-sizing: border-box;
     height: 1.5cm;
     transition: 0.5s;
@@ -42,7 +28,7 @@
   }
   
   .menu li a{
-    margin: 0 1rem;
+    margin: 0 0.45cm;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
@@ -131,7 +117,6 @@
     font-size: 0.5cm;
     margin-left: 1cm;
   }
-  
   
   .sobreMi{
    padding: 1cm;
@@ -225,7 +210,6 @@
     font-weight: 800;
     font-size: 0.6cm;
   }
-  
   
   html{
     scroll-behavior: smooth;
