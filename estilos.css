@@ -187,6 +187,7 @@
   
   .contacto u1{
     position: relative;
+    text-align: center;
   }
   
   .contacto u1 li{
@@ -194,7 +195,6 @@
     list-style: none;
     margin-bottom: 0.6cm;
     cursor: pointer;
-    margin-left: 13.7cm;
   }
   
   .contacto u1 li .iconos{
