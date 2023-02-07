@@ -50,7 +50,7 @@
   }
   
   .menu li a:hover{
-    color: lightgreen;
+    color: #0081B4;
   }
   
   .principal{
@@ -58,12 +58,12 @@
     max-height: 100cm;
     min-height: 25cm;
     display: grid;
-    grid-template-rows: 1.5fr 1.3fr 1.3fr 1fr 0.5fr;
+    grid-template-rows: 1fr 0.9fr 0.9fr 0.8fr 0.5fr;
   }
   
   .principal .informacionPersonal{
     position: static;
-    background: #594545;
+    background: #674188;
     padding: 1cm;
   }
   
@@ -94,7 +94,7 @@
   
   .principal .educacion{
     position: static;
-    background-color: red;
+    background-color: #FFF2F2;
     padding: 1cm;
   }
   
@@ -114,32 +114,33 @@
   .educacion h4{
     color: black;
     font-weight: 600;
-    font-size: 0.6cm;
+    font-size: 0.4cm;
     margin-left: 1cm;
   }
   
   .educacion h3{
-    color: white;
+    color: black;
     font-weight: 900;
     font-size: 0.8cm;
     margin-left: 1cm;
   }
   
   .educacion h5{
-    color: white;
+    color: black;
     font-weight: 600;
-    font-size: 0.6cm;
+    font-size: 0.5cm;
     margin-left: 1cm;
   }
   
   
   .sobreMi{
    padding: 1cm;
+   background: #8EA7E9;
   }
   
   .sobreMi h2{
-    color: #9E7676;
-    margin-bottom: 1cm;
+    color: black;
+    margin-bottom: 1.5cm;
     margin-top: 1.3cm;
     text-align: center;
     font-weight: 900;
@@ -151,30 +152,32 @@
     font-weight: 600;
     margin-left: 4cm;
     margin-right: 4cm;
-    font-size: 0.8cm;
+    font-size: 0.7cm;
   }
   
   .parrafo2{
-    margin-top: 0.8cm;
+    margin-top: 1cm;
   }
   
   .principal .experiencia{
     position: static;
-    background: #FFFBE9;
+    background: #FFFFE8;
     padding: 1cm;
   }
   
   .experiencia h2{
-    margin-top: 0.7cm;
+    margin-top: 0.4cm;
     text-align: center;
     font-weight: 900;
     font-size: 1.5cm;
   }
   
   .experiencia h6{
-    color: #820000;
+    color: black;
     font-size: 0.6cm;
     font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 0.1cm;
   }
   
   .experiencia u1 li{
@@ -185,7 +188,7 @@
   
   .principal .contacto{
     position: static;
-    background: blueviolet;
+    background: #A6B1E1;
   }
   
   .contacto h2{
@@ -213,12 +216,12 @@
     display: inline-block;
     width: 0.5cm;
     font-size: 0.6cm;
-    color: white;
+    color: black;
     margin: 0.2cm;
   }
   
   .contacto u1 li span{
-    color: white;
+    color: black;
     font-weight: 800;
     font-size: 0.6cm;
   }
